@@ -127,8 +127,23 @@ figure img, figure figcaption{
   margin: auto;
 }
 
-
 figure img {
   border: 1px solid rgb(133, 131, 131);
   border-radius: 0.2em;
+}
+
+body dialog {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  translate: -50% -50%;
+  border-radius: 0.2em;
+  padding: 1.5em;
+  background-color: rgb(247, 244, 244);
+}
+
+body dialog form{
+  top: 0%;
+  right: 0%;
+  position: fixed;
 }
