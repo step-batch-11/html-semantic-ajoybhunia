@@ -9,7 +9,6 @@ body {
 
   width: 100vw;
   background-color: whitesmoke;
-  /* border: 2px solid red; */
 }
 
 h1 {
@@ -36,7 +35,6 @@ body main, body > header {
   width: 65%;
   margin: 0 auto;
   background-color: ghostwhite;
-  /* border: 2px solid green; */
   padding: 1em 2.5em;
 }
 
@@ -116,3 +114,21 @@ body main aside h3 {
   font-weight: 600;
 }
 
+figure {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+figure img, figure figcaption{
+  width: 80%;
+  margin: auto;
+}
+
+
+figure img {
+  border: 1px solid rgb(133, 131, 131);
+  border-radius: 0.2em;
+}
